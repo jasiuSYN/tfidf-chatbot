@@ -1,0 +1,98 @@
+Definicja Scruma
+Scrum to uproszczone ramy postępowania, które pomagają poszczególnym osobom, zespołom i organizacjom wytwarzać wartość poprzez adaptacyjne rozwiązywanie złożonych problemów.
+Najprościej rzecz ujmując, Scrum wymaga, aby Scrum Master przyczyniał się do tworzenia środowiska, w którym:
+1. Product Owner porządkuje pracę potrzebną do rozwiązania złożonego problemu, tworząc Product Backlog.
+2. Scrum Team przekształca wybraną część tej pracy w wartościowy Increment w trakcie Sprintu.
+3. Scrum Team oraz jego interesariusze sprawdzają efekty i dostosowują swoje działania na
+potrzeby kolejnego Sprintu.
+4. Powtórz
+Scrum jest prosty. Wypróbuj go w takiej postaci, w jakiej został tu opisany i sprawdź, czy jego filozofia, teoria oraz struktura pomogą ci w osiągnięciu celów i tworzeniu wartości. Scrum rozumiany jako ramy postępowania jest celowo niekompletny, definiuje jedynie elementy wymagane do wdrożenia teorii Scruma. Scrum opiera się na inteligencji zbiorowej jego użytkowników. Zamiast dawać ludziom szczegółowe instrukcje, reguły Scruma pozwalają kształtować wzajemne relacje i interakcje.
+W Scrumie można stosować różnorodne procesy, techniki i metody. Scrum obejmuje istniejące praktyki lub sprawia, że stają się zbędne. Scrum unaocznia względną skuteczność dotychczasowego zarządzania, środowiska, technik pracy, aby umożliwiać wprowadzanie usprawnień.
+
+
+Przejrzystość
+Kształtujący się proces oraz praca muszą być widoczne dla osób ją wykonujących, jak również dla osób, na rzecz których praca ta jest wykonywana. W Scrumie ważne decyzje podejmowane są na podstawie zaobserwowanego stanu jego trzech artefaktów. Niedostateczna przejrzystość artefaktów może prowadzić do decyzji, których wynikiem jest zmniejszona wartość bądź zwiększone ryzyko.
+Przejrzystość umożliwia inspekcję. Inspekcja bez przejrzystości prowadzi do błędów i strat.
+
+
+Wartości Scruma
+Aby stosowanie Scruma mogło przynosić pożądane efekty, członkowie zespołu muszą doskonalić się w postępowaniu według pięciu wartości, jakimi są:
+Zaangażowanie, Skupienie, Otwartość, Szacunek, Odwaga
+Scrum Team z zaangażowaniem podchodzi do realizacji celów oraz do zapewniania sobie wzajemnego wsparcia. Skupia się przede wszystkim na pracy do wykonania w Sprincie, aby jak najbardziej zbliżyć się do osiągnięcia celów. Scrum Team oraz jego interesariusze zachowują otwartość w sprawie pracy i wyzwań z nią związanych. Członkowie Scrum Teamu szanują się wzajemnie jako kompetentne, niezależne jednostki oraz jako takie są szanowane przez osoby z nimi współpracujące. Członkowie Scrum Teamu mają odwagę robić to, co należy i mierzyć się z trudnymi problemami.
+
+
+Developerzy
+Developerzy to osoby w Scrum Teamie zobowiązane do wytworzenia każdego aspektu użytecznego Incrementu w każdym Sprincie.
+Zakres konkretnych umiejętności niezbędnych Developerom często bywa szeroki i różni się w zależności od dziedziny. Tym niemniej Developerzy zawsze ponoszą odpowiedzialność za:
+● Stworzenie planu Sprintu, czyli Sprint Backlogu;
+● Ciągłe zapewnianie jakości poprzez postępowanie zgodnie z Definicją Ukończenia;
+● Codzienne dostosowywanie planu tak, aby osiągnąć Cel Sprintu; oraz
+● Wzajemne egzekwowanie odpowiedzialności zawodowej.
+
+
+Product Owner
+Product Owner ponosi odpowiedzialność za maksymalizowanie wartości produktu będącego efektem pracy Scrum Teamu. Sposób, w jaki to robi, może znacznie się różnić w zależności od organizacji, Scrum Teamu bądź poszczególnych osób.
+Product Owner ponosi również odpowiedzialność za skuteczne zarządzanie Product Backlogiem, co obejmuje:
+● Opracowywanie i jasne artykułowanie Celu Produktu;
+● Tworzenie i jasne artykułowanie elementów Product Backlogu;
+● Porządkowanie elementów Product Backlogu; oraz
+● Zapewnienie przejrzystości, dostępności i zrozumienia Product Backlogu.
+Product Owner może wykonywać powyższe zadania samodzielnie lub zlecać je innym osobom. Niemniej to Product Owner pozostaje za nie odpowiedzialny.
+
+
+Scrum Master
+Scrum Master ponosi odpowiedzialność za to, aby Scrum był stosowany zgodnie z tym, co zostało opisane w tym Przewodniku. Realizuje to zadanie, pomagając wszystkim w zrozumieniu teorii i praktyki Scruma, zarówno w samym Scrum Teamie, jak i w organizacji.
+Scrum Master ponosi odpowiedzialność za efektywność Scrum Teamu. Czyni to poprzez stwarzanie mu odpowiednich warunków do poprawy stosowanych przez niego praktyk, zgodnie z regułami Scruma.
+Scrum Masterzy to prawdziwi liderzy działający na rzecz Scrum Teamu, jak i szerzej rozumianej organizacji.
+
+
+Sprint
+Sprinty są pulsem Scruma. W Sprintach pomysły są przekształcane w wartość.
+Są to wydarzenia o ustalonej długości, trwają maksymalnie miesiąc dla uzyskania regularności. Nowy Sprint rozpoczyna się natychmiast po zakończeniu poprzedniego.
+Cała praca niezbędna do osiągnięcia Celu Produktu, z uwzględnieniem zdarzeń: Sprint Planning, Daily Scrum, Sprint Review oraz Sprint Retrospective, odbywa się w Sprintach.
+W czasie trwania Sprintu:
+● Nie dokonuje się żadnych zmian, które zagrażałyby osiągnięciu Celu Sprintu;
+● Jakość nie spada;
+● Product Backlog jest w razie potrzeby uszczegóławiany; oraz
+● Zakres pracy może być doprecyzowywany lub renegocjowany z Product Ownerem wraz z rosnącym zrozumieniem.
+
+
+Sprint Planning
+Sprint Planning rozpoczyna Sprint poprzez rozplanowanie pracy do wykonania w Sprincie. Powstały plan jest efektem wspólnej pracy całego Scrum Teamu.
+Product Owner gwarantuje, że uczestnicy są przygotowani do omówienia najważniejszych elementów Product Backlogu oraz tego, jak powinien zostać sformułowany Cel Produktu. Scrum Team może zaprosić na Sprint Planning także inne osoby w charakterze doradców.
+Sprint Planning to wydarzenie, podczas którego uczestnicy zajmują się następującymi tematami:
+1. Temat pierwszy: Dlaczego ten Sprint ma wartość?
+2. Temat drugi: Co może zostać Ukończone w tym Sprincie?
+3. Temat trzeci: W jaki sposób zostanie wykonana praca?
+
+
+Daily Scrum
+Celem Daily Scrum jest sprawdzenie postępów w dążeniu do osiągnięcia Celu Sprintu oraz w razie konieczności adaptacja Sprint Backlogu, czyli dostosowanie zaplanowanej pracy.
+Daily Scrum to 15 minutowe wydarzenie dla Developerów danego Scrum Teamu. Aby ograniczyć złożoność, odbywa się ono o tej samej porze i w tym samym miejscu w każdy dzień roboczy w trakcie trwania Sprintu. Jeśli Product Owner lub Scrum Master wykonują pracę związaną z elementami Sprint Backlogu, uczestniczą w spotkaniu jako Developerzy.
+Developerzy mogą zdecydować się na dowolną strukturę oraz techniki, o ile tylko Daily Scrum dotyczy postępów w realizacji Celu Sprintu, a efektem tego wydarzenia jest możliwy do wykonania plan na nadchodzący dzień pracy. Pozwala to osiągnąć większe skupienie i poprawia umiejętność samozarządzania.
+
+
+Sprint Review
+Celem Sprint Review jest inspekcja efektów pracy wykonanej w Sprincie oraz wskazanie przyszłych zmian. Scrum Team prezentuje rezultaty swojej pracy kluczowym interesariuszom, omawiane są także postępy w dążeniu do Celu Produktu.
+Podczas tego wydarzenia Scrum Team wraz z interesariuszami oceniają to, co zostało zrealizowane podczas Sprintu oraz zmiany, jakie zaszły w ich otoczeniu. Na podstawie tych informacji uczestnicy wspólnie ustalają, co należy robić w następnej kolejności. Product Backlog może także zostać zmodyfikowany, aby uwzględnić nowe możliwości. Sprint Review to spotkanie robocze, a Scrum Team powinien unikać ograniczania go jedynie do prezentacji.
+Sprint Review to przedostatnie zdarzenie scrumowe w trakcie Sprintu, czas jego trwania jest ograniczony do maksymalnie czterech godzin dla miesięcznego Sprintu. W przypadku krótszych Sprintów zdarzenie to zwykle trwa krócej.
+
+
+Sprint Retrospective
+Celem Sprint Retrospective jest planowanie sposobów na podniesienie jakości i efektywności.
+Scrum Team sprawdza, jak przebiegał ostatni Sprint w odniesieniu do osób, interakcji, procesów, narzędzi oraz Definicji Ukończenia. Sprawdzane elementy często różnią się w zależności od specyfiki pracy. Ujawnia się założenia, które doprowadziły zespół do błędnych wniosków, bada się także ich pierwotną przyczynę. Scrum Team omawia to, co poszło dobrze w trakcie Sprintu, jakie problemy się pojawiły, a także w jaki sposób te problemy zostały (lub nie zostały) rozwiązane.
+
+
+Increment
+Increment to konkretny krok w kierunku osiągnięcia Celu Produktu. Każdy kolejny Increment rozbudowuje wszystkie wcześniejsze, jest też skrupulatnie weryfikowany po to, aby zapewnić, że wszystkie Incrementy są do siebie dopasowane. Aby dostarczyć wartość, Increment musi być użyteczny.
+W trakcie Sprintu może zostać wytworzonych wiele Incrementów. Przedstawienie sumy Incrementów podczas Sprint Review wspiera podejście empiryczne. Jednakże Increment może zostać dostarczony interesariuszom przed zakończeniem Sprintu. Nigdy nie należy traktować Sprint Review jako jedynego punktu decyzyjnego dopuszczającego dostarczenie wartości.
+
+
+Product Backlog
+Product Backlog to ewoluująca, uporządkowana lista tego, co jest konieczne do ulepszenia produktu. To jedyne źródło pracy podejmowanej przez Scrum Team.
+Elementy Product Backlogu, które mogą zostać Ukończone przez Scrum Team w trakcie jednego Sprintu, zostają uznane za gotowe do wybrania podczas Sprint Planningu. Zwykle osiągają ten stopień przejrzystości w procesie ich doskonalenia. Doskonalenie (ang. refinement) Product Backlogu to działanie polegające na dzieleniu elementów Product Backlogu na mniejsze, bardziej precyzyjnie zdefiniowane jednostki oraz na ich dookreślaniu. To ciągły proces, którego celem jest dodawanie szczegółów, takich jak opis, kolejność czy rozmiar. Właściwości te często są różne w zależności od specyfiki pracy.
+
+
+Sprint Backlog
+Na Sprint Backlog składają się: Cel Sprintu (po co), elementy Product Backlogu wybrane do realizacji w Sprincie (co) oraz wykonalny plan dostarczenia Incrementu (jak).
+Sprint Backlog to plan przygotowany przez Developerów dla nich samych. Jest dobrze widoczną, na bieżąco aktualizowaną reprezentacją pracy, którą Developerzy planują wykonać w trakcie Sprintu, aby zrealizować Cel Sprintu. Dlatego Sprint Backlog jest uaktualniany przez cały Sprint wraz z rosnącym zrozumieniem. Powinien być dostatecznie szczegółowy, aby Developerzy mogli na jego podstawie sprawdzić swoje postępy podczas Daily Scrum.
