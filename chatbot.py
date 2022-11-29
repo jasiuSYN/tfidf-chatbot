@@ -24,19 +24,15 @@ class ChatBot:
             "tak",
             "ok",
         ]
-        self.responses = None
-        self.preprocessed_docs = None
-        self.get_responses()
-        self.get_preprocessed_docs()
+        self.responses = self.get_responses()
+        self.preprocessed_docs = self.get_preprocessed_docs()
 
     def get_responses(self):
         with open("responses.txt", "r", encoding="utf-8") as respo:
-            responses = respo.read().split("\n\n")
-        self.responses = responses
+            return respo.read().split("\n\n")
 
     def get_preprocessed_docs(self):
-        docs_list = [preprocess_text(doc) for doc in self.responses]
-        self.preprocessed_docs = docs_list
+        return [preprocess_text(doc) for doc in self.responses]
 
     def best_response(self, user_input):
         # preprocess user input and add to responses list
@@ -53,20 +49,15 @@ class ChatBot:
 
         # end if the similarity between the question and the answers is equal to 0 without last element (user question)
         if sum(cosine_similarities[0][:-1]) == 0.0:
-            return ""
+            return False
 
         # get the index of the most similar response to the user message:
         similar_response_index = cosine_similarities.argsort()[0][-2]
         best_response = self.responses[similar_response_index]
-        print(best_response)
-
-        print(
-            "\n** Po więcej informacji wejdź na stronę: **\nhttps://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Polish.pdf"
-        )
-        print("\n-----------------")
 
         # delete last user input for next iteration if response isnt exhaustive or not adequately specified
         del self.preprocessed_docs[-1]
+        return best_response
 
     def chat(self):
         print(
@@ -75,11 +66,21 @@ class ChatBot:
 
         while True:
             user_question = input("Co chcesz wiedzieć o SCRUM?\n>>")
-            if self.best_response(user_question) == "":
+            if user_question in self.negative_words:
+                break
+            best_response = self.best_response(user_question)
+            if not best_response:
                 print(
                     "Przepraszam nie rozumiem. Twoje pytanie nie pasuje do żadnej odpowiedzi!"
                 )
                 continue
+            else:
+                print(best_response)
+                print(
+                    "\n** Po więcej informacji wejdź na stronę: **\nhttps://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Polish.pdf"
+                )
+
+                print("\n-----------------")
             user_message = input("\nCzy odpowiedź jest dla Ciebie wyczerpująca?\n>>")
 
             if user_message.lower() in self.positive_words:

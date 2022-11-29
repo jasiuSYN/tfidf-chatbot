@@ -10,7 +10,7 @@ This repository contains an implementation of the TF-IDF method, used to analyze
 
 ### Installation
 
-The codes use Python 3. Clone the repository and install all necessary packages:
+The codes use `Python 3.9`. Clone the repository and install all necessary packages:
 
 ```
 1. Start a virtual environment
